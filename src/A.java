@@ -8,12 +8,13 @@ public class A {
 		
 	}
 	public static void checkEmployee(Object name) {
-		ArrayList<Object>employe= new ArrayList<Object>();
-		employe.add("Namrata");
-		employe.add("smith");
-		employe.add("karl");
-		employe.add("Arabinda");			
-		for (Object e : employe) {
+		ArrayList<Object>employee= new ArrayList<Object>();
+		employee.add("Namrata");
+		employee.add("smith");
+		employee.add("karl");
+		employee.add("Arabinda");	
+	
+		for (Object e : employee) {
 			if(e.equals(name)) {
 				System.out.println("Valid employee");
 				break;
