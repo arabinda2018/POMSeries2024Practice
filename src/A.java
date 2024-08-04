@@ -12,7 +12,7 @@ public class A {
 		employee.add("Namrata");
 		employee.add("smith");
 		employee.add("karl");
-		employee.add("Arabinda");	
+
 	
 		for (Object e : employee) {
 			if(e.equals(name)) {
